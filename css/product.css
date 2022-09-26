@@ -20,7 +20,7 @@ h3 {
 }
 
 .container {
-    padding-left: 28px;
+    padding-left: 18px;
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
@@ -165,18 +165,7 @@ h3 {
 }
 
 
-/* @media (max-width:676px) {
-    .products .lightBoxContainer .lightBoxItem {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        width: 600px;
-        height: 600px;
-        background-size: calc(100%), cover;
-        position: relative;
-        margin: auto;
-    }
-} */
+
 
 .products .lightBoxContainer .lightBoxItem i {
     font-size: 25px;

@@ -228,11 +228,10 @@ li a {
         border-radius: 50%;
         width: 300px;
         height: 300px;
-        margin-left: 18px;
     }
     .picture img {
         width: 260px;
-        transform: translate(36px, -36px);
+        transform: translate(25px, -20px);
         height: 558px;
     }
     .head h1 {
@@ -250,7 +249,8 @@ li a {
     .social ul {
         display: grid;
         grid-template-columns: 25% 25% 25% 25%;
-        margin-top: 320px;
+        margin-top: 633px;
+        margin-left: -32px;
     }
     .social ul li {
         
