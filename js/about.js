@@ -20,7 +20,7 @@ icon.onclick = function() {
 
 let conheading = document.querySelector(".conheading");
 let messheading = document.querySelector(".messheading");
-let sahm = document.querySelector(".sahm");
+
 
 
 
@@ -35,11 +35,7 @@ window.onscroll = function() {
     let valueofmess = messoffset + messheight - windowh;
     if (page >= (valueofcon)) {
         conheading.style.animationPlayState = "running";
-        sahm.style.display = "block"
-
-    } else {
-        sahm.style.display = "none"
-    }
+        
 
     if (page >= (valueofmess)) {
         messheading.style.animationPlayState = "running";
@@ -47,14 +43,6 @@ window.onscroll = function() {
     }
 
 }
-sahm.onclick = function() {
-    window.scrollTo({
-            left: 0,
-            top: 0,
-            behavior: "smooth"
-        }
-
-    )
 }
 
 

@@ -2,10 +2,13 @@
     font-family: 'Kalam', cursive;
     font-family: 'Roboto', sans-serif;
     font-family: 'Work Sans', sans-serif;
+    border: 1px solid black;
 }
 
 body {
     overflow-x: hidden;
+    border: 3px solid red;
+    background-color: aqua;
 }
 
 :root {
@@ -13,7 +16,9 @@ body {
     --second-color: #212121FF;
     --main-transition: 0.3s;
 }
+.my-content{
 
+}
 
 /*start basic */
 
@@ -94,10 +99,10 @@ li a {
 @media only screen and (max-width: 576px) {
     /* start landing style */
     .container {
-        width: 500px;
+       
     }
     .landing {
-        width: 500px;
+       
     }
     .navbar {
         align-items: center;
@@ -108,7 +113,7 @@ li a {
         color: var(--second-color);
         font-size: 30px;
         font-weight: bold;
-        margin-left: 52px;
+        
     }
     .navbar ul {
         display: flex;
@@ -202,8 +207,11 @@ li a {
     }
     .our-content {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(467px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(193px, 1fr));
         margin-top: 73px;
+    }
+    .head{
+        width: 300px;
     }
     .text {
         padding: 30px;
@@ -218,12 +226,13 @@ li a {
     .picture {
         background-color: var(--main-color);
         border-radius: 50%;
-        width: 422px;
-        height: 422px;
+        width: 300px;
+        height: 300px;
+        margin-left: 18px;
     }
     .picture img {
-        width: 479px;
-        transform: translate(-32px, 6px);
+        width: 260px;
+        transform: translate(36px, -36px);
         height: 558px;
     }
     .head h1 {
@@ -235,14 +244,16 @@ li a {
         text-align: center;
     }
     .social {
-        margin-left: 42px;
+       
         margin-bottom: 25px;
     }
     .social ul {
-        display: flex;
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        margin-top: 320px;
     }
     .social ul li {
-        margin-right: 30px;
+        
     }
     .social ul li i {
         color: var(--main-color);
@@ -633,10 +644,10 @@ li a {
         text-align: center;
         margin-top: 20px;
         padding-bottom: 12px;
-        width: 543px;
+        
     }
     .container-con {
-        width: 500px;
+       
         margin-left: 0;
     }
     .contact .conheading {
@@ -644,10 +655,8 @@ li a {
         animation-play-state: paused;
         margin-top: 20px;
         padding: 30px;
-        margin-left: 57px;
     }
     .contact h2 {
-        margin-left: 59px;
         margin-bottom: 69px;
         text-transform: capitalize;
     }
@@ -661,7 +670,7 @@ li a {
         margin-top: 96px;
     }
     .contact .concontent .left img {
-        width: 384px;
+        width: 243px;
         margin-top: -11px;
         margin-right: -5px;
         animation: forimge2 0.5s cubic-bezier(0, 0, 0.71, 0.74) infinite alternate;
@@ -676,16 +685,15 @@ li a {
         font-size: 20px;
     }
     .box1 {
-        padding: 30px;
+        padding: 48px;
         border-radius: 70px;
         box-shadow: 0px 1px 3px var(--main-color);
-        width: 60%;
+        margin: 24px;
         margin-top: 73px;
-        margin-left: 25%;
         background-color: #fff6f642;
     }
     .contact .concontent h4 {
-        margin-right: -59px;
+       
         margin-top: 55px;
         color: #0000009c;
         font-size: 30px;
@@ -693,8 +701,8 @@ li a {
         margin-bottom: 33px;
     }
     .contact .concontent ul {
-        display: flex;
-        margin-left: 51px;
+       display: grid;
+       grid-template-columns: 25% 25% 25% 25%;
     }
     .contact .concontent ul li {
         list-style: none;
@@ -722,7 +730,6 @@ li a {
         border: none;
         font-size: 25px;
         margin: 59px;
-        margin-left: 122px;
         border-radius: 10px;
     }
     .contact button a {
@@ -743,7 +750,7 @@ li a {
         animation-play-state: paused;
         margin-top: 20px;
         padding: 30px;
-        margin-left: 57px;
+        
     }
     .messheading h2 {
         margin-left: -6px;
@@ -758,7 +765,7 @@ li a {
         margin-top: 125px;
         color: white;
         margin-bottom: 85px;
-        margin-left: 55px;
+       
     }
     .message .messcontent .form #title,
     .message .messcontent .form input[type="email"],
@@ -807,8 +814,8 @@ li a {
         height: 58px;
         padding: 10px;
         text-transform: capitalize;
-        width: 100%;
-        margin-left: 5%;
+       
+       
     }
     .footer-contact p {
         color: white;
@@ -836,10 +843,10 @@ li a {
         animation-play-state: paused;
         margin-top: 20px;
         padding: 30px;
-        margin-left: 57px;
+        
     }
     .contact h2 {
-        margin-left: 59px;
+        
         margin-bottom: 69px;
         text-transform: capitalize;
     }
@@ -855,7 +862,7 @@ li a {
     .contact .concontent .left img {
         width: 476px;
         margin-top: -11px;
-        margin-right: -55px;
+      
         animation: forimge2 0.5s cubic-bezier(0, 0, 0.71, 0.74) infinite alternate;
     }
     .contact .concontent .right {
@@ -876,7 +883,6 @@ li a {
         background-color: #fff6f642;
     }
     .contact .concontent h4 {
-        margin-right: -59px;
         margin-top: 55px;
         color: #0000009c;
         font-size: 30px;
@@ -913,7 +919,6 @@ li a {
         border: none;
         font-size: 25px;
         margin: 59px;
-        margin-left: 122px;
         border-radius: 10px;
     }
     .contact button a {
@@ -934,7 +939,7 @@ li a {
         animation-play-state: paused;
         margin-top: 20px;
         padding: 30px;
-        margin-left: 57px;
+       
     }
     .messheading h2 {
         margin-left: -6px;
@@ -949,7 +954,7 @@ li a {
         margin-top: 125px;
         color: white;
         margin-bottom: 85px;
-        margin-left: 55px;
+       
     }
     .message .messcontent .form #title,
     .message .messcontent .form input[type="email"],
